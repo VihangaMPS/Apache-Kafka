@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class KafkaProducer {
 
-    private final KafkaTemplate<String, String> kafkaTemplate;
+    private final KafkaTemplate<String, String> kafkaTemplate; // Key & Value
 
     public void sendMessage(String message) {
 
